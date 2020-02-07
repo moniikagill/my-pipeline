@@ -28,6 +28,17 @@ pipeline {
                   sh 'echo "Firefox"'
                }
             }
+             stage('Explorer'){
+                  steps{
+                     sh 'echo "explorer")
+                  }
+               }
+             stage('Explorer'){
+                  steps{
+                     sh 'echo "explorer")
+                  }
+               }
+            }
          }
          
       }
